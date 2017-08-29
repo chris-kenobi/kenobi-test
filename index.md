@@ -43,16 +43,16 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
             var useriq_site_id = "508051501"
             //All green highlights indicate the areas in the UserIQ script that should contain your own variables
             // user id is required
-            var user_id = "INSERT_YOUR_APP_USER_ID_HERE"
+            var user_id = "1123"
             // account id is required for account analytics
-            var account_id = "INSERT_YOUR_APP_ACCOUNT_ID_HERE"
+            var account_id = "3211"
             useriq.setSiteId(useriq_site_id)
             useriq.identify(user_id, {
-              user_name: 'INSERT_USER_NAME_HERE',
+              user_name: 'Chris Morgan',
               account_id: account_id,
-              account_name: 'INSERT_ACCOUNT_NAME_HERE',
-              user_email: 'INSERT_USER_EMAIL_HERE',
-              signup_date: 'INSERT_USER_SIGNUP_DATE_HERE_YYYY-MM-DD',
+              account_name: 'ACME',
+              user_email: 'chris+100@useriq.com',
+              signup_date: '2017-08-29',
             })
             useriq.startTracker()
             var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
